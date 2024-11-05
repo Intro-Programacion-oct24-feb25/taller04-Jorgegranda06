@@ -16,9 +16,36 @@ public class Problema4 {
     public static void main(String[] args) {
         // TODO code application logic here
         // declaro variables 
+        String reporte = "";
         String nombres = "Luis Alberto Carvajal Ludeña";
+        String valoresIniciales = "";
+        double CPU = 600;
+        double teclado = 20; 
+        double ratón = 15; 
+        double pantalla = 300;
+        double costoComputadora = 935; 
         
-                
+        System.out.println(reporte);
+        System.out.println(nombres);
+        System.out.println(valoresIniciales);
+        System.out.println(CPU);
+        System.out.println(teclado);
+        System.out.println(ratón);
+        System.out.println(pantalla);
+        
+        costoComputadora = CPU + teclado + ratón + pantalla;
+        
+        System.out.printf("Reporte: %s\nNombres: %s\n"
+                + "Valores iniciales: %s\nCPU: %.2f\nTeclado: $%.2f\n"
+                + "Ratón: $%.2f\nPantalla: $%.2f\nValor a cancelar: $%.2f\n",
+                reporte,
+                nombres,
+                valoresIniciales,
+                CPU,
+                teclado,
+                ratón,
+                pantalla,
+                costoComputadora);
     }
     
 }

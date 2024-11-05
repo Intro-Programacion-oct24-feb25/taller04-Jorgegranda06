@@ -34,8 +34,9 @@ public class Problema3 {
 
         costoPlanilla = costoMinuto * minutosConsumidos;
 
-        System.out.printf("Reporte: %s%nNombres: %s%n\tCalles: %s%ncosto Minuto: %s%n\t"
-                + "minutos consumidos: %s%n\tcosto planilla: %s%n\t",
+        System.out.printf("Reporte: %s%nNombres: %s%n\tCalles: %s%n"
+                + "costo Minuto: $ %s%n\tminutos consumidos: %s%n\t"
+                + "costo planilla: $ %s%n\t",
                 reporte,
                 nombres,
                 calles,
