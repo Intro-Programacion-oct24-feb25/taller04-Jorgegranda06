@@ -4,7 +4,6 @@
  */
 package problema2;
 // import java.util.Scanner;
-import java.io.PrintStream;
 import java.util.Scanner;
 /**
  *
